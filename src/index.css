@@ -1,0 +1,55 @@
+.beforeTitle {
+    text-align: center;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.title-container {
+    text-align: center;
+}
+
+.title {
+    color:darkgreen;
+    font-size: xx-large;
+}
+
+#app {
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: auto;
+    gap:0.4em;
+}
+
+.container-avocado {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    transition: box-shadow 0.3s;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+.container-avocado:hover {
+    box-shadow: 12px 12px 12px 12px rgba(0,0,0,0.24), 12px 17px 50px 15px rgba(0,0,0,0.19);
+}
+
+.img-avocado {
+    margin-top: 0.3em;
+    margin-left: 0.2em;
+    width: 15em;
+    height: auto;
+    border-radius: 10%;
+}
+
+.price-avocado {
+    grid-column: 2/3;
+    font-size: xx-large;
+    background-color: red;
+
+}
